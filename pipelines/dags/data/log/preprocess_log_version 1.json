@@ -1,0 +1,41 @@
+{
+    "duplicate": {
+        "ratio": 0.9996665777540678,
+        "num_files": 14991,
+        "total": 14996,
+        "delete_duplicate_image": false,
+        "diff_cutoff": 0.95
+    },
+    "preprocessed": {
+        "num_files": 14996,
+        "dist": {
+            "train": {
+                "aster": 1200,
+                "daisy": 1200,
+                "iris": 1200,
+                "lavender": 1200,
+                "lily": 1196,
+                "marigold": 1200,
+                "orchid": 1200,
+                "poppy": 1200,
+                "rose": 1200,
+                "sunflower": 1200
+            },
+            "test": {
+                "aster": 300,
+                "daisy": 300,
+                "iris": 300,
+                "lavender": 300,
+                "lily": 300,
+                "marigold": 300,
+                "orchid": 300,
+                "poppy": 300,
+                "rose": 300,
+                "sunflower": 300
+            }
+        },
+        "train_folder": "/mnt/d/ML/MLOps Basic Pipeline for Flower dataset/flower_classification_dataset/storage/data-warehouse/version 1/train",
+        "val_folder": "/mnt/d/ML/MLOps Basic Pipeline for Flower dataset/flower_classification_dataset/storage/data-warehouse/version 1/val",
+        "data_file": "/mnt/d/ML/MLOps Basic Pipeline for Flower dataset/flower_classification_dataset/storage/data-warehouse/version 1/data.csv"
+    }
+}

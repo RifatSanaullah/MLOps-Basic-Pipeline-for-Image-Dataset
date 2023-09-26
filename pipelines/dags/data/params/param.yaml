@@ -1,0 +1,30 @@
+lake_dir: "/mnt/d/ML/MLOps Basic Pipeline for Flower dataset/flower_classification_dataset/storage/data-lake/train"
+warehouse_dir: "/mnt/d/ML/MLOps Basic Pipeline for Flower dataset/flower_classification_dataset/storage/data-warehouse"
+version: "version 1"
+log_folder: "/mnt/d/ML/MLOps Basic Pipeline for Flower dataset/pipelines/dags/data/log/"
+
+extention: ".jpeg"
+num_classes: 10
+class_names:
+  [
+    "aster",
+    "daisy",
+    "iris",
+    "lavender",
+    "lily",
+    "marigold",
+    "orchid",
+    "poppy",
+    "rose",
+    "sunflower",
+  ]
+seed: 123
+
+# eda
+blur_threshold: 0.95
+similarity_threshold: 1.05
+
+# preprocess
+test_ratio: 0.2
+delete_blur_image: False
+delete_duplicate_image: False

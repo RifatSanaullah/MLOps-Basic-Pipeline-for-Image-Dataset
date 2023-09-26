@@ -1,0 +1,42 @@
+{
+    "files": {
+        "dir": "/mnt/d/ML/MLOps Basic Pipeline for Flower dataset/flower_classification_dataset/storage/data-lake/train",
+        "count": 14996
+    },
+    "blur": {
+        "median_blur": 1740.4644546778532,
+        "min_blur": 3.7446615107822048,
+        "max_blur": 30297.185661003175,
+        "blur_cutoff": 1653.4412319439605
+    },
+    "duplicate": {
+        "median_diff": 0.11822538214058108,
+        "diff_cutoff": 0.12413665124761014
+    },
+    "class_distribution": {
+        "class_names": [
+            "aster",
+            "daisy",
+            "iris",
+            "lavender",
+            "lily",
+            "marigold",
+            "orchid",
+            "poppy",
+            "rose",
+            "sunflower"
+        ],
+        "dist": {
+            "aster": 1500,
+            "daisy": 1500,
+            "iris": 1500,
+            "lavender": 1500,
+            "lily": 1496,
+            "marigold": 1500,
+            "orchid": 1500,
+            "poppy": 1500,
+            "rose": 1500,
+            "sunflower": 1500
+        }
+    }
+}
